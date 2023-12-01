@@ -1,0 +1,1 @@
+# salinhotel.github.io
