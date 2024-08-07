@@ -41,13 +41,20 @@
 
     <!-- Add more service cards as needed -->
 
-    <form style="font-size: 28px;" id="selectedServicesForm" action="your-server-endpoint" method="post">
+    <form id="selectedServicesForm" action="your-server-endpoint" method="post">
       <h3 style="color: #ffffff;">Selected Services</h3>
       <ul id="selectedServicesList"></ul>
       <button type="submit">Submit Selection</button>
+      <br>
+      <br>
+      <br>
     </form>
 
   </main>
+
+  <footer>
+    &copy; 2023 Salin Hotel. All rights reserved.
+  </footer>
   <script>
     function selectService(serviceName) {
       const selectedServicesList = document.getElementById('selectedServicesList');
@@ -56,10 +63,6 @@
       selectedServicesList.appendChild(listItem);
     }
   </script>
-
-  <footer>
-    &copy; 2023 Salin Hotel. All rights reserved.
-  </footer>
 
 
 </body>
