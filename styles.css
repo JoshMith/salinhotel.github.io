@@ -61,6 +61,9 @@ body {
   .room-card h3 {
     color: #333;
   }
+  .room-card h4 {
+    color: #333;
+  }
   
   .service-card {
     border: 1px solid #ddd;
@@ -72,6 +75,9 @@ body {
   }
   
   .service-card h3 {
+    color: #333;
+  }
+  .service-card h4 {
     color: #333;
   }
   
