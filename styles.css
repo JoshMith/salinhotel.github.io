@@ -9,7 +9,7 @@ body {
   
   header {
     background-color: #333;
-    color: white;
+    color: #87CEEB;
     text-align: center;
     padding: 1em;
   }
@@ -42,7 +42,7 @@ body {
   /* Additional Styling */
   
   h2 {
-    color: #333;
+    color: #000000;
   }
   
   p {
