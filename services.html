@@ -44,7 +44,7 @@
     <form id="selectedServicesForm" action="your-server-endpoint" method="post">
       <h3 style="color: #ffffff;">Selected Services</h3>
       <ul id="selectedServicesList"></ul>
-      <button type="submit">Submit Selection</button>
+      <button onclick="selectService()>Submit Selection</button>
       <br>
       <br>
       <br>
@@ -61,6 +61,9 @@
       const listItem = document.createElement('li');
       listItem.textContent = serviceName;
       selectedServicesList.appendChild(listItem);
+    }
+    function requestService(serviceName) {
+      alert(' Room service confirmed for ' + serviceName);
     }
   </script>
 
